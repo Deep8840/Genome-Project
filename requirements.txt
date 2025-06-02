@@ -1,0 +1,15 @@
+# Install numpy first as it's a dependency for pandas
+numpy==1.26.4
+# Then install pandas
+pandas==2.2.1
+# Rest of the requirements
+streamlit==1.32.0
+openpyxl==3.1.2
+python-dotenv==1.0.1
+bcrypt==4.1.2
+PyYAML==6.0.1
+google-auth==2.27.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+google-api-python-client==2.118.0
+gspread==5.12.4 
