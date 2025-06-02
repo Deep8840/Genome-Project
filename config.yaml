@@ -1,0 +1,47 @@
+# Application Settings
+app:
+  title: "Genome Data Validation Interface"
+  theme:
+    primaryColor: "#1E88E5"
+    backgroundColor: "#FFFFFF"
+    secondaryBackgroundColor: "#F0F2F6"
+    textColor: "#262730"
+    font: "sans serif"
+
+# Validation Settings
+validation:
+  source_classifications:
+    - human
+    - microbial
+    - animal
+    - plant
+    - other
+  data_types:
+    - original
+    - re-use
+    - mixed
+
+# File Settings
+files:
+  input_columns:
+    - PMID
+    - PMCID
+    - Title
+    - Abstract
+    - AI Source Classification
+    - AI Data Type
+    - Reason
+  output_columns:
+    - PMID
+    - PMCID
+    - Title
+    - Abstract
+    - AI Source Classification
+    - AI Data Type
+    - AI Reason
+    - Validator
+    - Validation Timestamp
+    - Agreement
+    - Corrected Source Classification
+    - Corrected Data Type
+    - Corrected Reason 
